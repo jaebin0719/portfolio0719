@@ -1,0 +1,28 @@
+.main-canvas{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-family: 'Freesentation-9Black';
+}
+.canvas-first{
+    font-size: 3.5rem;
+}
+.canvas-second{
+    font-size: 10em;
+    font-family: 'SF_HambakSnow';
+}
+.canvas-third{
+    font-size: 5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+    color: #fff;
+}
+.canvas-fourth{
+    font-size: 5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+    color: #fff;
+}

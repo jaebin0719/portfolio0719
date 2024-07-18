@@ -1,0 +1,128 @@
+.skill {
+    font-family: 'Freesentation-9Black';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.skill-title {
+    font-size: 4em;
+    font-family: 'SF_HambakSnow';
+    margin: 50px 0;
+}
+
+.skill-per {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-left.skill-right {
+    width: 50%;
+    height: 100%;
+}
+
+.skill-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 2em;
+}
+
+.skill-bar {
+    display: inline-block;
+    width: 550px;
+    height: 20px;
+    background-color: #fff;
+    border: 3px solid #333;
+    border-radius: 20px;
+    margin: 10px 20px;
+    position: relative;
+}
+.skill-bar:after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border: 3px solid #333;
+    left: 0%;
+    top: 5%;
+    border-radius: 20px;
+    z-index: -1;
+}
+.per{
+    position: absolute;
+    background-color:rgb(90, 90, 253);
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    left: 0;
+}
+.per-text{
+    position: absolute;
+    right: -3px;
+    top: -58px;
+    background-color: rgb(90, 90, 253);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+.per-text:after{
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: rgb(90, 90, 253);
+    bottom: -8px;
+    right: 30%;
+    transform: rotate(-45deg);
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+.per:after{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid rgb(49, 49, 168);
+    border-radius: 50%;
+}
+.html{
+    width: 93%;
+}
+.css{
+    width: 91%;
+}
+.javascript{
+    width: 78%;
+}
+.jquery{
+    width: 80%;
+}
+.photoshop{
+    width: 82%;
+}
+.illustrator{
+    width: 80%;
+}
+.git{
+    width: 90%;
+}
+.figma{
+    width: 83%;
+}

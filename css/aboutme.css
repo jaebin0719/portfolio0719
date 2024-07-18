@@ -1,0 +1,31 @@
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-text {
+    line-height: 50px;
+    padding: 50px 0;
+}
+
+.aboutme span {
+    color: rgb(90, 90, 253);
+    font-size: 3em;
+    display: block;
+    height: 48px;
+}
+
+.about-text h2 {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Freesentation-9Black';
+}
+
+.about-text p {
+    font-size: 1.2em;
+    font-family: 'NanumSquareNeoLight';
+    font-weight: 700;
+}
