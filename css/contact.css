@@ -1,0 +1,92 @@
+.contact {
+    height: 100vh;
+    padding: 120px;
+    display: flex;
+}
+
+.contact-left {
+    width: 50%;
+    height: 100%;
+    font-family: 'Freesentation-9Black';
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left h2 {
+    font-size: 5em;
+}
+
+.contact-left span {
+    font-size: 1.3em;
+    font-family: 'NanumSquareNeoLight';
+    font-weight: 600;
+}
+
+.sns-icon {
+    display: flex;
+    margin: 20px 0;
+}
+
+.sns-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    background-color: #333;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.sns-icon a:hover {
+    background-color: #444;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right {
+    width: 50%;
+}
+
+.contact-form h3 {
+    font-size: 1.2em;
+    color: #333;
+    font-family: 'NanumSquareNeoLight';
+    font-weight: 600;
+    margin: 7px 0 3px 0;
+}
+
+.contact-form input {
+    width: 70%;
+    height: 40px;
+    font-size: 1.3em;
+    font-family: 'NanumSquareNeoLight';
+}
+
+.contact-form textarea {
+    width: 70%;
+    height: 300px;
+    font-size: 1.1em;
+    font-family: 'NanumSquareNeoLight';
+    font-weight: 600;
+}
+
+.input-btn input {
+    width: 15%;
+    height: 35px;
+    font-size: 1em;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.input-btn input:hover {
+    background-color: #eeeeee;
+}

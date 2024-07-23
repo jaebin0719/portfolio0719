@@ -9,6 +9,7 @@
     <script src="js/header.js"></script>
     <script src="js/skill.js"></script>
     <script src="js/portfolio.js"></script>
+    <script src="js/contact.js"></script>
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- jquery -->
@@ -39,6 +40,14 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <!-- Emailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("qieJi-k7n0OYMA-Eb");
+        })();
+    </script>
 </head>
 
 <body>
@@ -199,7 +208,8 @@
                                                     <span>회원가입</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="signup-img" class="hide-img" src="images/class&signup.PNG" alt="클래스엔회원가입">
+                                                <img id="signup-img" class="hide-img" src="images/class&signup.PNG"
+                                                    alt="클래스엔회원가입">
                                             </div>
                                             <div class="menu-btn" data-target="gall-img">
                                                 <a href="#">
@@ -207,7 +217,8 @@
                                                     <span>게시판</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="gall-img" class="hide-img" src="images/class&gall.PNG" alt="클래스엔게시판">
+                                                <img id="gall-img" class="hide-img" src="images/class&gall.PNG"
+                                                    alt="클래스엔게시판">
                                             </div>
                                             <div class="menu-btn" data-target="sell-img">
                                                 <a href="#">
@@ -215,7 +226,8 @@
                                                     <span>결제페이지</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="sell-img" class="hide-img" src="images/class&sell.PNG" alt="클래스엔결제페이지">
+                                                <img id="sell-img" class="hide-img" src="images/class&sell.PNG"
+                                                    alt="클래스엔결제페이지">
                                             </div>
                                         </div>
                                         <a href="https://3team-project-b.vercel.app/index.html" class="port-link">
@@ -257,7 +269,8 @@
                                                     <span>Data Json</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="signup-img" class="hide-img" src="images/hansalimjson.PNG" alt="한살림데이터">
+                                                <img id="signup-img" class="hide-img" src="images/hansalimjson.PNG"
+                                                    alt="한살림데이터">
                                             </div>
                                             <div class="menu-btn" data-target="gall-img">
                                                 <a href="#">
@@ -265,10 +278,12 @@
                                                     <span>가격 변동</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="gall-img" class="hide-img" src="images/hansalimsell.PNG" alt="한살림결제">
+                                                <img id="gall-img" class="hide-img" src="images/hansalimsell.PNG"
+                                                    alt="한살림결제">
                                             </div>
                                         </div>
-                                        <a href="https://3team-project-b.vercel.app/index.html" class="port-link">
+                                        <a href="https://hansalim-ghyddbdc8-jaebin0719s-projects.vercel.app/"
+                                            class="port-link">
                                             <code>
                                             <span style="color: rgb(253,78,78);">&lt;a</span> 
                                             <span style="color: rgb(0,172,0);">href=</span>
@@ -307,7 +322,8 @@
                                                     <span>서브페이지</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="signup-img" class="hide-img" src="images/port1info.PNG" alt="포트폴리오1정보">
+                                                <img id="signup-img" class="hide-img" src="images/port1info.PNG"
+                                                    alt="포트폴리오1정보">
                                             </div>
                                             <div class="menu-btn" data-target="gall-img">
                                                 <a href="#">
@@ -315,7 +331,8 @@
                                                     <span>반응형</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="gall-img" class="hide-img imgphone" src="images/port1phone.PNG" alt="포트폴리오1반응형">
+                                                <img id="gall-img" class="hide-img imgphone" src="images/port1phone.PNG"
+                                                    alt="포트폴리오1반응형">
                                             </div>
                                         </div>
                                         <a href="https://pjbportpolio.vercel.app/" class="port-link">
@@ -357,7 +374,8 @@
                                                     <span>Slide</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="signup-img" class="hide-img" src="images/dosiragslide.PNG" alt="도시락통슬라이드">
+                                                <img id="signup-img" class="hide-img" src="images/dosiragslide.PNG"
+                                                    alt="도시락통슬라이드">
                                             </div>
                                             <div class="menu-btn" data-target="gall-img">
                                                 <a href="#">
@@ -365,7 +383,51 @@
                                                     <span>반응형</span>
                                                     <i class="fa-solid fa-chevron-right"></i>
                                                 </a>
-                                                <img id="gall-img" class="hide-img imgphone" src="images/dosiragphone.PNG" alt="도시락통 반응형">
+                                                <img id="gall-img" class="hide-img imgphone"
+                                                    src="images/dosiragphone.PNG" alt="도시락통 반응형">
+                                            </div>
+                                        </div>
+                                        <a href="https://dosirag1-clone.vercel.app/" class="port-link">
+                                            <code>
+                                            <span style="color: rgb(253,78,78);">&lt;a</span> 
+                                            <span style="color: rgb(0,172,0);">href=</span>
+                                            <span style="color: rgb(255, 255, 80);">"#site"&gt;</span>
+                                            <span style="color:rgb(128, 128, 255) ;">사이트보기</span>
+                                            <span style="color: rgb(253,78,78);">&lt;/a&gt;</span>
+                                        </code>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="proview">
+                            <div class="proleft">
+                                <div class="left-top">
+                                    <span>05 - 05</span>
+                                    <span>Work</span>
+                                    <p>Portfolio 2</p>
+                                </div>
+                                <div class="left-bottom">
+                                    <div class="project-menu">
+                                        <div class="menu-color">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="main-img active-img">
+                                            <img src="images/port2main.PNG" alt="포트폴리오2메인페이지">
+                                        </div>
+                                        <div class="pro-menu-btn">
+                                            <div class="menu-btn" data-target="gall-img">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-gear"></i>
+                                                    <span>Emailjs</span>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                </a>
+                                                <img id="gall-img" class="hide-img emailjsimg"
+                                                    src="images/port2email.PNG" alt="이메일js이미지">
                                             </div>
                                         </div>
                                         <a href="https://dosirag1-clone.vercel.app/" class="port-link">
@@ -392,7 +454,37 @@
             </div>
         </section>
         <section class="contact">
-
+            <div class="contact-left">
+                <h2>Contact me</h2>
+                <span>더 궁금한게 있으면 연락주세요!</span>
+                <div class="sns-icon">
+                    <a href="https://www.instagram.com/jae_been_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/jaebin0719"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="contact-info">
+                    <span>T.010 9365 1083</span>
+                    <span>flxksldk0719@naver.com</span>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form class="contact-form" id="contact-form">
+                    <div class="input-name">
+                        <h3>Your Name *</h3>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="input-email">
+                        <h3>Your Email *</h3>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="input-text">
+                        <h3>Message *</h3>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <div class="input-btn">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
         </section>
     </div>
 </body>
